@@ -1,0 +1,76 @@
+
+body{
+  margin:0;
+  padding:0;
+	background-color: #F1F1F1;
+}
+div.sidebar {
+    width: 100%;
+    height: 120px;
+    background: url(../images/header.jpg) center top repeat-x;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+div.sidebar > #logo {
+    margin: 0px;
+    float: left;
+    margin-left: 3%;
+    width: 195px;
+    height: 120px;
+    margin-right: 10px;
+}
+div.sidebar > #logo a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+div.sidebar > #logo img {
+    width: 100%;
+    height: 100%;
+}
+div.sidebar > nav {
+    width: 80%;
+    height: 120px;
+    float: right;
+}
+div.sidebar > nav ul {
+    list-style: none;
+    height: 100%;
+}
+div.sidebar > nav ul li {
+    float: left;
+}
+div.sidebar > nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: #FFF;
+    line-height: 120px;
+    padding: 0px 40px;
+    transition: all 200ms linear;
+}
+div.sidebar > nav ul li.active a,
+div.sidebar > nav ul li a:hover {
+    background-color: #3c200f;
+    transition: all 200ms linear;
+}
+
+div.container{
+  width: 85%;
+  height: 100%;
+  padding-top: 200px;
+}
+div.row{
+  width: 100%;
+  height: auto;
+	margin-left: 0px!important;
+}
+
+/*imagen*/
+div.container table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 15px;
+}

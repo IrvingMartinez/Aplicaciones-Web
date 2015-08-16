@@ -1,0 +1,176 @@
+*{
+	margin:0;
+	padding:0;}
+	
+#load{
+	border:0;
+	width:30%;
+	margin-left:35%;
+	height:200px;
+	background: -moz-linear-gradient(top, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.65) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.55)), color-stop(100%,rgba(0,0,0,0.65))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0.55) 0%,rgba(0,0,0,0.65) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(0,0,0,0.55) 0%,rgba(0,0,0,0.65) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(0,0,0,0.55) 0%,rgba(0,0,0,0.65) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(0,0,0,0.55) 0%,rgba(0,0,0,0.65) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8c000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
+	}
+
+table{
+	border: 0;
+}
+
+#vi tr td{
+	border: 0;
+	border-color: #000;
+	border-width: 0;
+}
+
+#vi{
+	margin-top:10px;
+	width: 40%;
+	margin-left: 30%;
+	background: #45484d;
+    background: -moz-linear-gradient(top, #45484d 0%, #232323 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#45484d), color-stop(100%,#232323));
+    background: -webkit-linear-gradient(top, #45484d 0%,#232323 100%);
+    background: -o-linear-gradient(top, #45484d 0%,#232323 100%);
+    background: -ms-linear-gradient(top, #45484d 0%,#232323 100%);
+    background: linear-gradient(to bottom, #45484d 0%,#232323 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#232323',GradientType=0 );
+    -webkit-box-shadow: 0px 7px 14px 1px rgba(0,0,0,0.74);
+    -moz-box-shadow: 0px 7px 14px 1px rgba(0,0,0,0.74);
+    box-shadow: 0px 7px 14px 1px rgba(0,0,0,0.74);
+	}
+
+
+#v{
+	width: 100%;
+	height: 150px;
+}
+
+#vi td img{
+	border: solid;
+	border-width: 5px;
+	border-color: #fff;
+	width: 100%;
+	height: 100%;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+
+#c{
+	background: #f7b83b; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f7b83b 0%, #ff7400 100%, #c4933e 100%, #ff7400 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f7b83b), color-stop(100%,#ff7400), color-stop(100%,#c4933e), color-stop(100%,#ff7400)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f7b83b 0%,#ff7400 100%,#c4933e 100%,#ff7400 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f7b83b 0%,#ff7400 100%,#c4933e 100%,#ff7400 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f7b83b 0%,#ff7400 100%,#c4933e 100%,#ff7400 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f7b83b 0%,#ff7400 100%,#c4933e 100%,#ff7400 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7b83b', endColorstr='#ff7400',GradientType=0 );
+}
+
+#ca h2{
+	font-family: OpenSans-CondLight;
+	text-align: center;
+	color: #fff;
+}
+
+#i h3{
+	color: #fff;
+	font-family: OpenSans-CondLight;
+	text-align: center;
+}
+
+#i p{
+	color: #fff;
+	font-family:SourceSansPro-ExtraLight;
+}
+
+#change a{
+	text-decoration: none;
+	color: #fff;
+	font-family:SourceSansPro-ExtraLight;
+	background: #21d046;
+	padding: 3px;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+
+#change a:hover{
+	background: #059924;
+}
+
+#t{
+	font-family:OpenSans-CondLight;
+	text-align:center;
+	color:#FFF;
+	background: #D31100;
+	}	
+	
+#t span{
+	margin-right:10px;}	
+	
+tr{
+	border-style:none;
+	border:0;}
+
+tr{
+	border-style:none;
+	border:0;}
+
+#h{
+	width:70%;}	
+
+input#l{
+	position:absolute;
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	width:100%;
+	height:100%;
+	opacity:0;}
+
+p#text{
+	color:#FFF;
+	font-family:OpenSans-CondLight;
+	text-align:center;}
+
+#txt{
+	font-family:SourceSansPro-Light;
+	text-align:center;
+	color:#FFF;}
+
+	
+[type=submit]{
+	background: #D31100;
+	border:0;
+	width:100%;
+	height:100%;
+	color:#FFF;}
+	
+	
+[type=submit]:hover{
+	background:#900;}
+	
+/*[type=file]{
+	position:relative;
+	opacity:0;}*/	
+
+
+@media screen and (max-width : 800px) {
+
+	#vi{
+	margin-top:7px;
+	width: 70%;
+	margin-left: 15%;}
+
+
+}
